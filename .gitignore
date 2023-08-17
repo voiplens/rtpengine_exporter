@@ -19,3 +19,7 @@
 
 # Go workspace file
 go.work
+
+rtpengine_exporter
+rtpengine_exporter.exe
+.pcversion
