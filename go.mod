@@ -2,11 +2,9 @@ module github.com/angarium-cloud/rtpengine_exporter
 
 go 1.21
 
-replace github.com/angarium-cloud/go-rtpengine => ../go-rtpengine
-
 require (
 	github.com/alecthomas/kingpin/v2 v2.3.2
-	github.com/angarium-cloud/go-rtpengine v0.0.0-20230809063612-516d66a72eb6
+	github.com/angarium-cloud/go-rtpengine v0.0.1
 	github.com/go-kit/log v0.2.1
 	github.com/prometheus/client_golang v1.16.0
 	github.com/prometheus/common v0.44.0
