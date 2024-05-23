@@ -1,14 +1,14 @@
-module github.com/angarium-cloud/rtpengine_exporter
+module github.com/voiplens/rtpengine_exporter
 
-go 1.21
+go 1.22
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.3.2
-	github.com/angarium-cloud/go-rtpengine v0.0.2
 	github.com/go-kit/log v0.2.1
 	github.com/prometheus/client_golang v1.16.0
 	github.com/prometheus/common v0.44.0
 	github.com/prometheus/exporter-toolkit v0.10.0
+	go.voiplens.io/rtpengine v0.0.4
 )
 
 require (
@@ -18,7 +18,7 @@ require (
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
-	github.com/google/uuid v1.3.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect

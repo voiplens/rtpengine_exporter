@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/angarium-cloud/go-rtpengine/ng"
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
+	"go.voiplens.io/rtpengine/ng"
 )
 
 // Collector implements prometheus.Collector (see below).

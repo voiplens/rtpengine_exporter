@@ -12,7 +12,6 @@ import (
 	"os"
 
 	"github.com/alecthomas/kingpin/v2"
-	"github.com/angarium-cloud/rtpengine_exporter/collector"
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -21,6 +20,7 @@ import (
 	"github.com/prometheus/common/version"
 	"github.com/prometheus/exporter-toolkit/web"
 	webflag "github.com/prometheus/exporter-toolkit/web/kingpinflag"
+	"github.com/voiplens/rtpengine_exporter/collector"
 )
 
 func init() {
